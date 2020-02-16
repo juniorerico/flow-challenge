@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		plugin = "pretty", 
 		features = "src/test/resources/features", 
-		glue = "step_definitions", 
+		glue = "challenges/step_definitions", 
 		tags = {"@LoginProfile" }
 )
 public class FlowChallenge1Test {

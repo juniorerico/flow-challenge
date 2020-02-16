@@ -1,4 +1,4 @@
-package step_definitions;
+package challenges.step_definitions;
 
 import static org.junit.Assert.assertTrue;
 
@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import challenges.flow.EmailAdapter;
-import challenges.flow.UserAgent;
 import challenges.flow.EmailApp;
+import challenges.flow.UserAgent;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
