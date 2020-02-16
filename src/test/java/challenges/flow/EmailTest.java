@@ -14,7 +14,7 @@ public class EmailTest {
 
   @Test
   public void testRun_AdapterIsCompliantWithProtocol_AppHasHelloMessage() throws Exception {
-    IAgent user = new UserAgent();
+    IAgent user = new UserAgent("hello");
     Map<String, IAdapter> adapters = new HashMap<String, IAdapter>();
     adapters.put("EMAIL", new EmailAdapter());
 
