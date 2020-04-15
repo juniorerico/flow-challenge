@@ -21,10 +21,6 @@ public class EmailApp implements IApp<String> {
     messages.add(message.replace("MSG:", ""));
     return message;
   }
-  
-  public Queue<String> getMessages(){
-	  return messages;
-  }
 
   public String popMessage() {
     String message = messages.remove();

@@ -1,4 +1,4 @@
-package challenges.flow;
+package challenges.flow.runner;
 
 import org.junit.runner.RunWith;
 
@@ -9,9 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		plugin = "pretty", 
 		features = "src/test/resources/features", 
-		glue = "challenges/step_definitions", 
-		tags = {"@LoginProfile" }
+		glue = "challenges/flow/step_definitions"
 )
-public class FlowChallenge1Test {
+public class TestRunner {
 
 }

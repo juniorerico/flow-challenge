@@ -1,4 +1,4 @@
-@LoginProfile
+@challenge
 Feature: Flow Challenge 1
   Scenario: Successful login
     Given A User sends an "hello" message
